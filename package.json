@@ -1,10 +1,13 @@
 {
   "name": "7.6",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:chrome1": "cypress run --browser chrome --headed --config-file cypress.config.1.js",
+    "test:chrome2": "cypress run --browser chrome --headless --config-file cypress.config.2.js",
+    "test:edge": "cypress run --browser edge --headed --config-file cypress.config.1.js",
+    "test:firefox": "cypress run --browser firefox --headed --config-file cypress.config.2.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +15,14 @@
     "16": "^0.0.2",
     "cypress": "^12.9.0",
     "cypress-file-upload": "^5.0.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marrinaanna/cypress-1-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marrinaanna/cypress-1-1/issues"
+  },
+  "homepage": "https://github.com/marrinaanna/cypress-1-1#readme",
+  "description": ""
 }
