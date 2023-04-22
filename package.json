@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "test:chrome1": "cypress run --browser chrome --headed --config-file cypress.config.1.js",
-    "test:chrome2": "cypress run --browser chrome --headless --config-file cypress.config.2.js",
-    "test:edge": "cypress run --browser edge --headed --config-file cypress.config.1.js",
-    "test:firefox": "cypress run --browser firefox --headed --config-file cypress.config.2.js"
+    "test:ChromeNB": "cypress run --browser chrome --headed --config-file cypress.config.1.js",
+    "test:ChromeMobile": "cypress run --browser chrome --headless --config-file cypress.config.2.js",
+    "test:EdgeNB": "cypress run --browser edge --headed --config-file cypress.config.1.js",
+    "test:FirefoxMobile": "cypress run --browser firefox --headed --config-file cypress.config.2.js"
   },
   "author": "",
   "license": "ISC",
